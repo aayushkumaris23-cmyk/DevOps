@@ -1,0 +1,11 @@
+NAME       STATUS   ROLES           AGE     VERSION
+minikube   Ready    control-plane   3h23m   v1.37.0
+NAME        READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+hello-k8s   1/1     Running   0          10m     10.244.0.4   minikube   <none>           <none>
+hello-pod   1/1     Running   0          3h21m   10.244.0.3   minikube   <none>           <none>
+NAME         TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+hello-k8s    NodePort    10.98.165.167   <none>        80:31241/TCP   9m41s
+hello-pod    NodePort    10.104.67.2     <none>        80:30973/TCP   3h18m
+kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP        3h23m
+NAME        ENDPOINTS       AGE
+hello-k8s   10.244.0.4:80   9m41s

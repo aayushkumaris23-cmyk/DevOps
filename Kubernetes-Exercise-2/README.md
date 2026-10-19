@@ -22,3 +22,8 @@ Simulate a web application deployed on Kubernetes and make it accessible through
 
 ## Evidence
 Screenshots and command outputs are stored in the evidence folder.
+### Minikube Service
+![Minikube Service](evidence/minikube.png)
+
+### Flask Application
+![Flask Application](evidence/flask.png)
